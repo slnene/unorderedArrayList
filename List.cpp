@@ -5,17 +5,20 @@
 
 using namespace std;
 
-List::List(void)
+//empty list
+List::List(void)   
 {size = 0;}
 
 
 List::~List(void)
 {
+  //list
 }
 
 bool List::IsEmpty () { return size==0;}
 bool List::IsFull () {return (size == MaxSize); }
 
+//comment
 void List::Insert (DataType e)
 {
  if (!(IsFull()))
@@ -49,7 +52,7 @@ if  (!(IsEmpty()))
   }
 }
 
-
+//comment
 void List::ShowData ()
 {
  for (int index = 0; index < size; index++)

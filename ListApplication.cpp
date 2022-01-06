@@ -7,11 +7,11 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-List L;
+List L; //comment
 
-L.Insert (10); L.Insert (15); L.Insert (20);
-L.ShowData ();
-L.Delete (15); 
+L.Insert (10); L.Insert (15); L.Insert (20);	//comment
+L.ShowData ();		//comment
+L.Delete (15);		
 L.ShowData ();
 L.Insert(30); L.Insert(50); L.Delete (10); 
 L.ShowData (); 
